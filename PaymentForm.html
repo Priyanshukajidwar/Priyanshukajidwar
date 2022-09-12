@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style >
+        form,input,p
+        {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+            color: black;
+            background-color: rgb(47, 224, 224);
+        }
+        </style>
+    <title>
+        payment form
+        <hr color="#ff7861">
+    </title>
+</head>
+<body>
+<form action="" size="234">
+    <h1>
+        Payment Form
+        <hr color="#ff7861">
+    </h1>
+    <h2>
+        Contact Information
+        <hr color="#ff7861">
+        <marquee direction="right" loop="3">Online Payment Form</marquee>
+    </h2>
+    <p>Name: <input type="text" name="name" required></p>
+    <p>
+    <fieldset>
+        <legend>Gender</legend>
+        Male <input type="radio" name="gender" id="male" required>
+        Female <input type="radio" name="gender" id="female" required>
+    </fieldset>
+    <p> E-mail: <input type="email" name="email" id="email" required> </p>
+    <p>Mobile Number: <input type="number" name="number" id=number" required></p>
+    <p>Address: <input type="address" name="address" id="address" cols="100" rows="8"></p>
+    <p>Card Type:
+        <select name="card_type" id="card_type" required>
+        <option> Net Banking</option>
+            <option>PayTM</option>
+            <option>Google Pay</option>
+            <option>Rupee</option>
+            <option>phone Pay</option>
+            <option value="Visa">Vsa </option>
+        </select>
+    </p>
+         Card Number <input type="number" name="card_number" id="card_number" required>
+
+    </p>
+    <p>
+        Card Expiration Date: <input type="date" name="exp_date" id="exp_date" required>
+    </p>
+    <p>
+        CVV <input type="password" name="cvv" id="cvv" required>
+    </p>
+    <p>
+         <input type="submit" value="Pay Now">
+    </p>
+
+
+</form>
+</body>
+</html>
